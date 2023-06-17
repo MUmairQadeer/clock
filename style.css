@@ -1,0 +1,34 @@
+#clock-container{
+    position: relative;
+    background: url("https://tse2.mm.bing.net/th?id=OIP.yylmbF9TZ2NF3N-zxoTgrQHaHa&pid=Api&P=0") no-repeat;
+  height:50vw;
+  width:50vw;
+  margin:auto;
+  background-size: 100%;
+  border:2px solid red;
+
+}
+#hour,#minute,#second{
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin:bottom;
+
+}
+#hour{
+    width: 1vw;
+    height: 12vw;
+    top: 25%;
+    left: 48.9%; }
+#minute{
+    width: 1vw;
+    height: 15vw;
+    left: 48.8%;
+    top: 20%; 
+}
+#second{
+    width: 0.9%;
+    height: 20vw;
+    left: 49.3%;
+   top: 9%;
+}
